@@ -31,11 +31,15 @@
 #define I2C1_OVERCLOCK true
 #define I2C2_OVERCLOCK true
 
+/****************************
+  Custom settings
+****************************/
+#define TELEMETRY_IBUS
+
 #ifdef STM32F7
 #define STM_FAST_TARGET
 #define I2C3_OVERCLOCK true
 #define I2C4_OVERCLOCK true
-#define TELEMETRY_IBUS
 #endif
 
 /****************************
@@ -45,7 +49,6 @@
 #define STM_FAST_TARGET
 #define USE_DSHOT
 #define I2C3_OVERCLOCK true
-#define TELEMETRY_IBUS
 #endif
 
 #ifdef STM32F3
